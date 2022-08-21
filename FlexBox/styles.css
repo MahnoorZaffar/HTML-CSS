@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    width: 450px;
+    margin: 7px;
+    transition: all 1s;
+}
+h1{
+    border-bottom: white 3px solid;
+    width: 450px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    box-shadow: 4px 4px 5px #353535;
+}
+img:hover {
+    transform: scale(1.1);
+
+}
